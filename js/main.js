@@ -9,16 +9,17 @@ Consigli del giorno:
 */
 
 for (let i = 0; i <= 99; i++) {
-    let result = i * 1 + 1; 
-    
-    if(result % 3 == 0) {
-        console.log("fizz");
-    } else if(result % 5 == 0){
+
+    let result = i * 1 + 1;
+
+    if (result % 3 == 0) {
+     console.log("Fizz");
+    } else if (result % 5 == 0) {
         console.log("buzz");
-    } if (result % 3 == 0 && result % 5 == 0){
+    } if (result % 3 == 0 && result % 5 == 0) {
         console.log("fizzbuzz");
     } else {
         console.log(result);
     }
-        
-    }
+
+}
