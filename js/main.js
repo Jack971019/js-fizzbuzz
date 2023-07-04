@@ -8,18 +8,20 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano" anche su un foglietto
 */
 
-for (let i = 0; i <= 99; i++) {
+for (let i = 0; i <= 99; i++){
 
     let result = i * 1 + 1;
 
-    if (result % 3 == 0) {
-     console.log("Fizz");
-    } else if (result % 5 == 0) {
-        console.log("buzz");
-    } if (result % 3 == 0 && result % 5 == 0) {
-        console.log("fizzbuzz");
-    } else {
-        console.log(result);
-    }
 
+if (result % 3 == 0 && result % 5 == 0) {
+        console.log("fizzbuzz");
+} else if (result % 3 == 0) {
+    console.log("fizz");
+} else if (result % 5 == 0) {
+    console.log("buzz");
+
+} else {
+    console.log(result);
 }
+
+}    
