@@ -1,0 +1,42 @@
+.bg-dark-blue{
+    background-color: rgb(24, 58, 74);
+}
+
+.square_normal{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(61, 136, 174);
+}
+
+.vertical_align_square{
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.container-square-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square_3_multiplies{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(61, 174, 78);
+}
+
+.square_5_multiplies{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(159, 186, 37);
+}
+
+.square_5_3_multiplies{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(163, 51, 56);
+}
